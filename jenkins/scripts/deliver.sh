@@ -27,4 +27,5 @@ echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 echo "Aici pun pwd"
 pwd
+ls -lah
 java -jar target/${NAME}-${VERSION}.jar
