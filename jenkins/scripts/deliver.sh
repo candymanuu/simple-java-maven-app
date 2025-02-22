@@ -28,4 +28,4 @@ set -x
 echo "Aici pun pwd"
 pwd
 ls -lah target/
-java -jar target/${NAME}-${VERSION}.jar
+java -jar target/my-app-1.0-SNAPSHOT.jar
